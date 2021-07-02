@@ -1,0 +1,25 @@
+.banner-area {
+  height: 100vh;
+
+  .banner-content {
+    h1 {
+      font-size: 60px;
+      font-weight: 700;
+      color: $white;
+      line-height: 1.7;
+      text-transform: capitalize;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      color: $white;
+      line-height: 1.7;
+      text-transform: capitalize;
+      letter-spacing: 1px;
+    }
+    a {
+      margin: 30px 10px 0 10px;
+      transition: 0.3s;
+    }
+  }
+}

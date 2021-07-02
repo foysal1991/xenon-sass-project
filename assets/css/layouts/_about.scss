@@ -1,0 +1,36 @@
+.about-area {
+  .about-img {
+    img {
+    }
+  }
+  .about-content {
+    h2 {
+      font-size: 50px;
+      text-transform: capitalize;
+      font-weight: 700;
+      color: $heading-color;
+    }
+    h4 {
+      font-size: 20px;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    ul {
+      li {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        i{
+            margin-right: 10px;
+            color: $heading-color;
+        
+        }
+      }
+    }
+    a {
+    }
+  }
+}
