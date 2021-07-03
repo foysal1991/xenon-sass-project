@@ -712,4 +712,68 @@ header .menu ul li a:hover {
   font-size: 16px;
   text-transform: capitalize;
 }
+
+.timeline-area .timeline-list {
+  position: relative;
+}
+
+.timeline-area .timeline-list:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: #ff3636;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.timeline-area .timeline-list li {
+  position: relative;
+  clear: both;
+  overflow: hidden;
+}
+
+.timeline-area .timeline-list li::after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ff3636;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.timeline-area .timeline-list li:nth-child(even) .timeline-content {
+  float: right;
+  text-align: left;
+}
+
+.timeline-area .timeline-list li .timeline-content {
+  float: left;
+  width: 45%;
+  border: 2px solid #ff3636;
+  padding: 20px;
+  text-align: right;
+}
+
+.timeline-area .timeline-list li .timeline-content span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff3636;
+}
+
+.timeline-area .timeline-list li .timeline-content h4 {
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.timeline-area .timeline-list li .timeline-content p {
+  line-height: 1.7;
+}
 /*# sourceMappingURL=style.css.map */
