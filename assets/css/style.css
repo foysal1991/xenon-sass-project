@@ -685,4 +685,31 @@ header .menu ul li a:hover {
   font-weight: 500;
   margin-top: 5px;
 }
+
+.counter-area {
+  background-color: #0f1113;
+  color: #fff;
+}
+
+.counter-area .single-counter {
+  text-align: center;
+}
+
+.counter-area .single-counter i {
+  font-size: 24px;
+  background-color: #ff3636;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.counter-area .single-counter h4 {
+  font-size: 36px;
+}
+
+.counter-area .single-counter p {
+  font-size: 16px;
+  text-transform: capitalize;
+}
 /*# sourceMappingURL=style.css.map */

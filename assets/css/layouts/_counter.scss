@@ -1,0 +1,28 @@
+.counter-area{
+    background-color: #0f1113;
+    color: #fff;
+
+    .single-counter{
+        text-align: center;
+        i{
+            font-size: 24px;
+            background-color: $heading-color;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            margin-bottom: 10px;
+
+        }
+        h4{
+            font-size: 36px;
+
+        }
+        p{
+            font-size: 16px;
+            text-transform: capitalize;
+
+        }
+    }
+}
+
+
